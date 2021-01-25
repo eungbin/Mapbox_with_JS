@@ -22,7 +22,7 @@
                     },
                     'geometry': {
                         'type': 'Point',
-                        'coordinates': [126.9711, 37.4363]
+                        'coordinates': [127.003, 37.508]
                     }
                 },
             ]
@@ -44,9 +44,10 @@
                 'id': 'poi-labels',
                 'type': 'symbol',
                 'source': 'labels',
+                "minzoom": 7,
                 'layout': {
                     'text-field': ['get', 'description'],
-                    'text-variable-anchor': ['top', 'bottom', 'left', 'right'],
+                    // 'text-variable-anchor': ['top', 'bottom', 'left', 'right'],
                     'text-radial-offset': 0.5,
                     'text-justify': 'auto',
                 }
