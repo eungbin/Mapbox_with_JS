@@ -9,7 +9,7 @@
 </head>
 <body>
     <div id='map' style='width: 800px; height: 600px;'></div>
-    <script>
+    <script type="text/javascript">
         mapboxgl.accessToken = 'pk.eyJ1IjoiZXVuZ2JpbiIsImEiOiJja2szbzRncDMxY3liMnVueTVyYzluMzV5In0.km2zQII39fitUJ0O5YbOfQ';
         var labels = {
             'type': 'FeatureCollection',
@@ -27,6 +27,7 @@
                 },
             ]
         };
+
         var map = new mapboxgl.Map({
             container: 'map',
             style: 'mapbox://styles/eungbin/ckk3o93694mfy17ouztoqhmxg', // stylesheet location
